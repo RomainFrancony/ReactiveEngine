@@ -29,7 +29,7 @@ class Reactive {
         model_node.forEach((node) => {
             let model = node.getAttribute('s-model');
 
-            // Sync dat -> DOM
+            // Sync data -> DOM
             this.observe('title',() => {
                 node.value = this.data[model];
             });
