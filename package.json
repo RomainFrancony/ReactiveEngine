@@ -1,14 +1,14 @@
 {
-  "name": "webpackboilerplate",
+  "name": "reactive-engine",
   "version": "1.0.0",
-  "description": "",
+  "description": "Custom Reactive Engine made with Javascript",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --config build/config.js --hot --open --inline --progress",
     "build": "webpack --config build/config.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "FRANCONY Romain",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.26.0",
