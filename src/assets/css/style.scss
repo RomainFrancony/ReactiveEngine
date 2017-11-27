@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: #009688;
+  color: #fff;
+}
+
+body {
+  padding: 20px;
+}
+
+.movie{
+  text-align: center;
+}
+
+h1 {
+  height:80px;
+  font-weight: 300;
+  font-size:45px;
+}
+
+button {
+  font-size: 16px;
+  padding: 6px 12px;
+  color: #474747;
+  outline:none;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+  background-color: #fff;
+}
+input{
+  padding:3px 12px;
+  background-color: #fff;
+  color: #474747;
+  font-size: 16px;
+  border:0;
+  height:32px;
+  border-radius: 3px;
+}
